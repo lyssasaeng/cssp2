@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'traveling';
+    src: url(fonts/TravelingTypewriter.ttf);
+    font-style: normal;
+}
+
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.left{
+    background-color:rosybrown;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.right{
+    float: right;
+    margin-right: 20px;
+}
+
+.right a{
+    font-family: 'traveling';
+    padding: 0 6px;
+    color: black;
+}
+
+#Coraline {
+    border:3px solid rgb(235, 172, 172);
+    float: left;
+    padding: 3px 0px 20px 0px;
+    color: white;
+    width: 250px;
+    height: 390px;
+    margin: 0 auto; 
+    margin-left: 90px;
+
+}
+
+#Hogwarts {
+    border:3px solid  rgb(235, 172, 172);
+    float: left;
+    padding: 3px 0px 20px 0px;
+    color: white;
+    width: 250px;
+    height: 390px;
+    margin: 0 auto;
+    margin-left: 20px;
+
+}
+
+#Rosie {
+    border: 3px solid  rgb(235, 172, 172);
+    float: left;
+    padding: 3px 0px 20px 0px;
+    color: white;
+    width: 250px;
+    height: 390px;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+#Twilight {
+    border: 3px solid  rgb(235, 172, 172);
+    float: left;
+    padding: 3px 0px 20px 0px;
+    color: white;
+    width: 250px;
+    height: 390px;
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: left;
+
+}
+
+#Coraline p{
+    padding: 0px 30px 37px 10px; 
+}
+
+#Hogwarts p{
+    padding: 0px 25px 0px 10px;
+}
+
+#Rosie p{
+    padding: 0px 30px 145px 10px;
+}
+
+#Twilight p {
+    padding: 0px 30px 0px 10px;
+}
+
+#Hogwarts a {
+    background-color: thistle;
+}
+
+#Coraline a {
+  background-color: thistle;
+}
+
+#Rosie a {
+    background-color: thistle;
+}
+
+#Twilight a {
+    background-color: thistle;
+}
+
+.boxes { 
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.button {
+    padding: 10px;
+    padding-left: 18%;
+    padding-right: 18%;
+    width: 100%;
+    margin-left: 10px;
+}
