@@ -18,6 +18,7 @@ body {
     width: 100%;
     padding: 10px;
     text-align: left;
+    margin-bottom: 40px;
 }
 
 .right{
@@ -32,48 +33,32 @@ body {
 }
 
 #Coraline {
-    border:3px solid rgb(235, 172, 172);
-    float: left;
-    padding: 3px 0px 20px 0px;
     color: white;
     width: 250px;
     height: 390px;
     margin: 0 auto; 
-    margin-left: 90px;
 
 }
 
 #Hogwarts {
-    border:3px solid  rgb(235, 172, 172);
-    float: left;
-    padding: 3px 0px 20px 0px;
     color: white;
     width: 250px;
     height: 390px;
     margin: 0 auto;
-    margin-left: 20px;
 
 }
 
 #Rosie {
-    border: 3px solid  rgb(235, 172, 172);
-    float: left;
-    padding: 3px 0px 20px 0px;
     color: white;
     width: 250px;
     height: 390px;
     margin: 0 auto;
-    margin-left: 20px;
 }
 
 #Twilight {
-    border: 3px solid  rgb(235, 172, 172);
-    float: left;
-    padding: 3px 0px 20px 0px;
     color: white;
     width: 250px;
     height: 390px;
-    margin-left: 20px;
 }
 
 h2 {
@@ -82,19 +67,21 @@ h2 {
 }
 
 #Coraline p{
-    padding: 0px 30px 37px 10px; 
+    padding: 0px 10px 17px 10px; 
 }
 
 #Hogwarts p{
-    padding: 0px 25px 0px 10px;
+    padding: 0px 15px -7px 10px;
+    
 }
 
 #Rosie p{
-    padding: 0px 30px 145px 10px;
+    padding: 0px 10px 127px 10px;
+    
 }
 
 #Twilight p {
-    padding: 0px 30px 0px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 #Hogwarts a {
@@ -114,8 +101,10 @@ h2 {
 }
 
 .boxes { 
-    margin: 10px;
-    margin-top: 40px;
+    display: flex;
+    
+    border:3px solid rgb(235, 172, 172);
+    width: 280px;
 }
 
 .button {
@@ -124,4 +113,10 @@ h2 {
     padding-right: 18%;
     width: 100%;
     margin-left: 10px;
+}
+
+
+#Allboxes { 
+    display: flex;
+    justify-content: space-evenly;
 }
